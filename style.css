@@ -1,0 +1,111 @@
+*{
+    margin : 0;
+    padding : 0;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height : 100vh;
+}
+h2{
+    text-align: center;
+    font : bold;
+    color : rgb(16, 57, 79);
+
+}
+#video{
+    position: relative;
+    min-width: 100%;
+    min-height: 100%;
+    object-fit: cover;
+}
+.container{
+    position: absolute;
+    background-color: rgb(239, 239, 234);
+    padding : 2rem;
+    border-radius: 1rem;
+    min-height : 55vh;
+    width: 50vh;
+
+}
+form{
+    margin : 2rem 0 1rem 0;
+
+}
+form select,button,input{
+    width : 100%;
+    border: none;
+    outline: none;
+    border-radius: 0.75rem;
+}
+
+form input{
+    border: 1px solid lightgrey;
+    font-size: 1rem;
+    height: 3rem;
+    padding-left : 0.5rem;
+}
+.dropdown{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 2rem;
+}
+.dropdown i{
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+.select-container img{
+    max-width: 2.75rem;
+    margin-left: 2px;
+}
+.select-container{
+    display: flex;
+    width: 6rem;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.5rem;
+    border: 1px solid lightgrey;
+}
+.select-conatiner select{
+    font-size:1rem;
+    width:auto;
+}
+.msg{
+    margin: 2rem 0 2rem 0;
+    border: none;
+    background-color: #fff;
+    border-radius: 1rem;
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    color: rgb(16, 57, 79);
+    font : bold;
+}
+.button{
+    text-align: center;
+    height:3rem;
+    background-color: rgb(109, 146, 54);
+    color: #fff;
+    font-size: 1.5rem;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(254, 253, 253, 0);
+    -webkit-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+}
+.button:hover, .button:focus, .button:active{
+    box-shadow: 0 0 20px rgba(0,0,0,0.5);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+}
+.disclaimer{
+    margin: 1rem 0 1rem 0;
+    text-align: center;
+    color: rgb(16, 57, 79);
+}
+
